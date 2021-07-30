@@ -10,6 +10,8 @@ LOCAL_SRC_FILES:= \
 
 LOCAL_CFLAGS := -Wall -Werror
 
+LOCAL_LDLIBS := -llog
+
 LOCAL_SHARED_LIBRARIES := \
     libutils \
     libbinder \
