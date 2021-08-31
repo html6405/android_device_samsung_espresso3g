@@ -33,7 +33,9 @@ PRODUCT_PACKAGES += \
     libsecril-client \
     libsecril-compat \
     libsecril-shim \
-    libsecnativefeature
+    libsecnativefeature \
+    android.hardware.radio@1.0 \
+    android.hardware.radio.deprecated@1.0
 
 PRODUCT_PROPERTY_OVERRIDES += \
     mobiledata.interfaces=pdp0,wlan0,gprs,ppp0
